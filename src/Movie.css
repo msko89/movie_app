@@ -1,9 +1,8 @@
 .movies .movie {
-  width: 45%;
+  width: calc(50% -10px);
   background-color: white;
   margin-bottom: 70px;
   display: flex;
-  align-items: flex-start;
   justify-content: space-between;
   font-weight: 300;
   padding: 20px;
@@ -39,7 +38,6 @@
   list-style: none;
   padding: 0;
   margin: 0;
-  display: flex;
   margin: 5px 0px;
 }
 
@@ -47,4 +45,17 @@
 .movie .movie__year {
   margin-right: 10px;
   font-size: 14px;
+  display: inline-block;
+}
+
+@media screen and (max-width: 900px) {
+  .movies .movie {
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .movies .movie {
+    flex-direction: column;
+  }
 }
