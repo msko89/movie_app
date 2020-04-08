@@ -13,7 +13,7 @@
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1"
   },
-  "homegage": "https://msko89.github.io/movie_app/",
+  "homepage": "https://msko89.github.io/movie_app/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
